@@ -1,0 +1,67 @@
+body {
+    background: #eee
+}
+
+.w-45 {
+    width: 45% !important;
+}
+
+
+.btn-vote {
+    height: 33.33%; border: 1px solid #aaa; border-radius: .25rem; box-shadow: 0 1px 2px 0px rgba(0,0,0,0.16);
+}
+
+.btn-vote:hover {
+    cursor: pointer;
+    box-shadow: 0 3px 6px 0px rgba(0,0,0,0.16);
+    color: white
+}
+
+.btn-vote-green {
+    background-color: green;
+    color: #eee;
+}
+
+.btn-vote-red {
+    background-color: red;
+    color: #eee;
+}
+
+.btn-vote-light {
+    background-color: white;
+    color: black;
+}
+
+.btn-vote-light:hover {
+    background-color: #eee;
+    color: black;
+}
+
+.btn-answer {
+    border: 1px solid #777; border-radius: .25rem
+}
+
+.btn-answer:hover {
+    cursor: pointer;
+    background-color: #444;
+}
+
+.btn-reported {
+    background-color: white!important;
+    color: red!important;
+}
+
+.btn-reacted {
+    background-color: white!important;
+    color: #0275d8!important;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+}
+
+.nav-link-selected {
+    background-color: #00000000 !important; 
+    border: 1px solid #0d6efd !important; 
+    color: #0d6efd !important;
+}
